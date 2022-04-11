@@ -1,34 +1,83 @@
-# React JS Landing Page Template
+# MovieLand
 
-**
+## Summary
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+A sleek site to make sneaker shopping easy.
+Motivation for development:
+Easy access to popular shoes on high demand.
+Being able to order from a site you can trust.
 
-**
+## User Story
 
+As an avid sneaker shopper I want an easy to use website that can be saved as a PWA so that I have a more accessible way to shop
+Acceptance Criteria:
+Given an e-commerce platform for buying shoes
+When I view the app’s store
+Then I see a front end created with React
+When I navigate the app
+Then it is interactive and responsive
+When I review the way the app determines changes to its global state
+Then I find that it passes reducers to a Redux store
+When I view the code for the app
+Then I see the MERN stack was used
+When I save the app to my home screen
+Then it functions like a native app
 
-### <a href="https://react-landing-page-template.herokuapp.com">LIVE DEMO</a> 
+## Tools Used
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+- JavaScript
+- Node.js
+- React
+- 3rd Party API
+- Heroku
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+# Snapshot
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
+![MovieLand](src/Images/MovieLand.png)
 
+# Table of Contents
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+- [Summary](#Summary)
+- [User Story](#User)
+- [Tools Used](#Tools)
+- [Snapshot](#Snapshot)
+- [Installation & Database SetUp](#Installation)
+- [Netlify](#Netlify)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+# Installation & Database SetUp
 
-##### Issaaf kattan
+- To use this app npm init has to be called to create your package.json file.
+- The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
+- To properly install the database you must create at cluster on Mongodb atlas.
+- Run "npm start" for the port to start listening.
+- This app is deployed on Netlify
+
+# Netlify
+
+[Check my app here](https://quiet-biscuit-d10189.netlify.app)
+
+# License
+
+![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+# Contributions
+
+​Contributors: Juan Gomez
+
+# Tests
+
+N/A
+
+# Questions?
+
+## Please contact me:
+
+- [My Portfolio](https://Juan-Carlos-Gomez.net)
+- [My GitHub Profile](https://github.com/jcgom3)
+- [My Github Project Repository](https://github.com/jcgom3/)
+- [My Github Deployed IO]()
+- Email me at: [Jcgom3@gmail.com](mailto:Jcgom3@gmail.com)

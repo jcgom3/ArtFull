@@ -104,9 +104,9 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #fa0303 0%, #f8d3c8 100%);
   content: "";
-  transition: width 0.2s;
+  transition: width 0.3s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f8d3c8 0%, #fa0303 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,7 +167,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to right, #ff8d6a 0%, #fa0303 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -257,7 +257,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #fa0303 0%, #ff8d6a 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +276,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f8d3c8 0%, #fa0303 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +291,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #fa0303;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -310,7 +310,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #fa0303 0%, #ff8d6a 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +334,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #070707 0%, #f3e2e2 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -370,8 +370,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgb(250, 3, 3, 0.6) 0%,
+    rgb(255, 141, 106, 0.6) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -457,10 +457,20 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+/* Estimates Section */
+#estimates .row {
+  display: block !important;
+
+  height: auto !important;
+  overflow: hidden;
+  /* position: static; */
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ff8d6a 0%, #fa0303 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -599,7 +609,7 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #about img {
     margin: 50px 0;
   }
